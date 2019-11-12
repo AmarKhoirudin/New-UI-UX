@@ -1,0 +1,64 @@
+.Content-3A {
+  margin-top: 35px;
+  padding-left: 11%;
+}
+/* ATAS 3A */
+.Content-3A .Atas-3A .Atas-3A-Icon {
+  background: #808fa3;
+  float: left;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  border-radius: 5px;
+}
+ .Atas-3A .Atas-3A-Icon i {
+     font-size: 25px;
+     padding-top: 15px;
+     box-sizing: border-box;
+ }
+
+ .Atas-3A .Atas-Kanan-3A{
+    margin-left: 10%;
+    float: left;
+    margin-top: -18px;
+ }
+ .Atas-3A .Atas-Kanan-3A-upload{
+     font-size: 20px;
+ }
+.Atas-3A .Atas-Kanan-3A-tanggal{
+    margin-top: -10px;
+    font-size: 17px;
+    color: #9999;
+}
+/* CLOSE */
+
+
+
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }

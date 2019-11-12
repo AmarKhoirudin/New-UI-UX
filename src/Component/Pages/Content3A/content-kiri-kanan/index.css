@@ -1,0 +1,122 @@
+.Content-Kiri-Kanan {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* kanan 1 */
+
+.Content-Kiri-Kanan .Kanan-1 img {
+  float: left;
+}
+
+/* kanan 1 button */
+.Content-Kiri-Kanan .Kanan-1 .Kanan-1-button {
+  float: left;
+  background: white;
+  color: #82bdff;
+  width: 20%;
+  padding-left: 3%;
+  margin-left: 5%;
+  text-align: center;
+  padding-top: 8px;
+  border: 1px solid #82bdff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.Content-Kiri-Kanan .Kanan-1 .Kanan-1-button i {
+  float: left;
+  font-size: 13px;
+}
+
+.Content-Kiri-Kanan .Kanan-1 .Kanan-1-button .kanan-button_css {
+  background: none;
+  border: none;
+  color: #82bdff;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+}
+
+/* -------- */
+
+.Content-Kiri-Kanan .Kanan-2 {
+  position: relative;
+}
+
+.Kanan-2 .kanan-2_input input {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 2%;
+  padding-right: 20%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #e9eff4;
+}
+
+.Kanan-2 .kanan-2_input button {
+  position: absolute;
+  right: 0;
+  margin-top: 6px;
+  margin-right: 3%;
+  background: none;
+  border: 1px solid #82bdff;
+  color: #82bdff;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.Content-Kiri-Kanan .Kanan-4 input {
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #e9eff4;
+}
+.Content-Kiri-Kanan .kanan_button {
+  width: 100%;
+  font-size: 14px;
+  color: white;
+  background: #4da1ff;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+}
+@media Screen and (max-width: 800px) {
+  .Kanan-2 .kanan-2_input input {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 22%;
+    height: 30px;
+  }
+}
+
+/**
+   * For modern browsers
+   * 1. The space content is one way to avoid an Opera bug when the
+   *    contenteditable attribute is included anywhere else in the document.
+   *    Otherwise it causes space to appear at the top and bottom of elements
+   *    that are clearfixed.
+   * 2. The use of `table` rather than `block` is only necessary if using
+   *    `:before` to contain the top-margins of child elements.
+   */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+      * For IE 6/7 only
+      * Include this rule to trigger hasLayout and contain floats.
+      */
+.cf {
+  *zoom: 1;
+}

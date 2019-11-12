@@ -1,0 +1,322 @@
+.isitext-3A {
+  /* text-align: center; */
+  margin-left: 7%;
+  background: #f4f8f9;
+}
+/* conten kiri */
+.cssButton3a {
+  background: #5c9fec;
+  color: white;
+  border: none;
+  height: 30px;
+  border-radius: 4px;
+  outline: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+.cssButton3a:hover {
+  background: #80bbfe;
+}
+
+.Content-Kiri-3A .Content-Kiri-Bawah-3A .Kiri-Bawah_Kiri {
+  background: white;
+  padding-left: 3%;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+
+/* kiribawahkiri */
+/* kiri Button */
+.Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-1 .Kiri-1-Button {
+  color: #80bbfe;
+  border: 1px solid #80bbfe;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 30px;
+  position: relative;
+  /* width: 50%; */
+}
+.Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-1 .Kiri-1-Button p {
+  float: left;
+  position: absolute;
+  top: -10px;
+  left: 2%;
+}
+.Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-1 .Kiri-1-Button button {
+  float: left;
+  border: none;
+  position: absolute;
+  background: none;
+  color: #80bbfe;
+  top: 5px;
+  left: 7%;
+  outline: none;
+}
+/* ----- */
+
+/* kiri-bawa-kiri 3 */
+
+/* =----- kiri_bawah_kiri-3*/
+
+.Kiri-Bawah_Kiri-3 {
+  position: relative;
+}
+
+.Kiri-Bawah_Kiri-3 input {
+  width: 100%;
+  border-radius: 7px;
+  outline: none;
+  padding-left: 4%;
+  padding-right: 18%;
+  box-sizing: border-box;
+}
+/* button kiri 3 kiri */
+.Kiri-Bawah_Kiri-3 .Kiri-Bawah_Kiri-3_button {
+  float: right;
+  right: 2%;
+  position: relative;
+  color: #80bbfe;
+  border: 1px solid #80bbfe;
+  width: 50%;
+  height: 30px;
+  padding-top: -2px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.Kiri-Bawah_Kiri-3 .Kiri-Bawah_Kiri-3_button p {
+  position: absolute;
+  top: -10px;
+}
+
+.Kiri-Bawah_Kiri-3 .Kiri-Bawah_Kiri-3_button button {
+  position: absolute;
+  top: 6px;
+  left: 5%;
+  border: none;
+  background: none;
+  color: #80bbfe;
+  outline: none;
+}
+
+/* kiri-kiri-4 */
+.Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-4 .drop-file {
+  border: 1px dashed #80bbfe;
+  text-align: center;
+  padding-top: 0px;
+  box-sizing: border-box;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* close */
+
+/* Content-Kanan */
+.Content-Kanan-3A {
+  background: #fcfdfd;
+}
+
+@media Screen and (min-width: 720px) {
+  .Content-Kanan-3A {
+    width: 18.4%;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+
+  /* kiri */
+  .Content-Kiri-3A {
+    width: 78%;
+  }
+  .Content-Kiri-3A .Content-Kiri-Atas-3A h1 {
+    float: left;
+  }
+  .Content-Kiri-3A .Content-Kiri-Atas-3A .cssButton3a {
+    float: right;
+    margin-top: 26px;
+  }
+
+  .Content-Kiri-3A .Content-Kiri-Bawah-3A {
+    width: 100%;
+  }
+  /* Kiri_Bawah_kiri */
+  .Content-Kiri-3A .Content-Kiri-Bawah-3A .Kiri-Bawah_Kiri {
+    /* background: yellow; */
+    width: 65%;
+    float: left;
+    padding-right: 2.7%;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-1 p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-1 input {
+    width: 100%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+    outline: none;
+    font-size: 12px;
+    padding-left: 3%;
+    padding-right: 3%;
+    float: left;
+    border: 1px solid #e9eff4;
+  }
+
+  /* kiri Button */
+  .Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-1 .Kiri-1-Button {
+    top: -35px;
+    right: 2%;
+    float: right;
+    width: 20%;
+  }
+  .Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-1 .Kiri-1-Button p {
+    float: left;
+    position: absolute;
+    top: -6px;
+    left: 2%;
+  }
+  .Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-1 .Kiri-1-Button button {
+    border: none;
+    position: absolute;
+    background: none;
+    color: #80bbfe;
+    top: 5px;
+    left: 7%;
+    outline: none;
+  }
+
+  /* ------- */
+
+  .Kiri-Bawah_Kiri-2 .Kiri-2-title .title-day {
+    float: left;
+    margin-right: 50%;
+    /* position: absolute; */
+    top: 0;
+  }
+
+  .Kiri-Bawah_Kiri-2 .Kiri-2-title .title-hour {
+    float: left;
+  }
+
+  .Kiri-2-input .input-1 {
+    margin-right: 31%;
+  }
+
+  /* =----- kiri_bawah_kiri-3*/
+
+  .Kiri-Bawah_Kiri-3 input {
+    height: 40px;
+    border: 1px solid #e9eff4;
+  }
+  /* button kiri 3 kiri */
+  .Kiri-Bawah_Kiri-3 .Kiri-Bawah_Kiri-3_button {
+    top: -36px;
+    width: 25%;
+  }
+  /* ----- */
+
+  /* close */
+  .Content-Kiri-3A .Content-Kiri-Bawah-3A .Kiri-Bawah_Kanan {
+    background: white;
+    width: 31%;
+    /* height: 50px; */
+    float: right;
+    margin-left: 30px;
+  }
+  /*---kiri--- */
+}
+
+@media Screen and (max-width: 720px) {
+  .Content-Kanan-3A {
+    float: left;
+    width: 93%;
+    height: 100vh;
+    margin-bottom: 100px;
+    background: white;
+  }
+
+  /* kiri */
+  .Content-Kiri-3A {
+    margin-top: 10vh;
+  }
+
+  /* kiri-bawa_kiri */
+  .Content-Kiri-3A .Content-Kiri-Bawah-3A .Kiri-Bawah_Kiri {
+    padding-left: 3%;
+    margin-right: 5%;
+    padding-top: 35px;
+    box-sizing: border-box;
+  }
+
+  /* kiribawahkiri */
+  /* kiri Button */
+  .Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-1 .Kiri-1-Button {
+    margin-top: 10px;
+    width: 50%;
+  }
+  /* ---- */
+  .Kiri-Bawah_Kiri .Kiri-2-title {
+    display: none;
+  }
+  .Kiri-Bawah_Kiri .Kiri-2-input .input-1 {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .Kiri-Bawah_Kiri .Kiri-2-input::before {
+    content: "Day and Hour :";
+  }
+
+  .Kiri-Bawah_Kiri-4 {
+    margin-top: 50px;
+  }
+
+  .Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-4 .gambar-bawah-kiri {
+    display: none;
+  }
+
+  .Kiri-Bawah_Kiri .Kiri-Bawah_Kiri-1 input {
+    border: 1px solid #e9eff4;
+    width: 98%;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  .Kiri-Bawah_Kiri-3 input {
+    border: 1px solid #e9eff4;
+    height: 25px;
+    width: 98%;
+    margin-bottom: 10px;
+  }
+}
+
+/**
+   * For modern browsers
+   * 1. The space content is one way to avoid an Opera bug when the
+   *    contenteditable attribute is included anywhere else in the document.
+   *    Otherwise it causes space to appear at the top and bottom of elements
+   *    that are clearfixed.
+   * 2. The use of `table` rather than `block` is only necessary if using
+   *    `:before` to contain the top-margins of child elements.
+   */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+   * For IE 6/7 only
+   * Include this rule to trigger hasLayout and contain floats.
+   */
+.cf {
+  *zoom: 1;
+}

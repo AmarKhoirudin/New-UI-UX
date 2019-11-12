@@ -1,0 +1,167 @@
+.isitext {
+  /* text-align: center; */
+  margin-left: 6%;
+  background: #f4f8f9;
+}
+/* conten kiri */
+.cssButton {
+  background: #5c9fec;
+  color: white;
+  border: none;
+  height: 30px;
+  border-radius: 4px;
+  outline: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+.cssButton:hover {
+  background: #80bbfe;
+}
+.warnaButton {
+  background: #80bbfe;
+}
+.Content-Kiri {
+  position: relative;
+  /* float: left; */
+  background: transparent;
+}
+/* Kiri-Bawah */
+.Content-Kiri .Content-Kiri-Bawah {
+  background: white;
+  position: relative;
+  padding-top: 16px;
+  padding-left: 25px;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Content-Kiri-Bawah .Kiri-Bawah-Image {
+  float: left;
+  background: #cb9549;
+  color: white;
+  height: 79px;
+  width: 78px;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 9px;
+  margin-right: 3%;
+}
+
+.Content-Kiri-Bawah .Kiri-Bawah-Image p {
+  font-size: 40px;
+  top: -25px;
+  left: 25%;
+  position: absolute;
+}
+.Content-Kiri-Bawah .Kiri-Bawah-Informasi {
+  float: left;
+}
+.Content-Kiri-Bawah .Kiri-Bawah-Informasi .Informasi-Judul {
+  font-size: 20px;
+  color: #323c47;
+}
+
+.Kiri-Bawah-Informasi .Informasi-Desripsi {
+  font-size: 13px;
+  margin-top: -15px;
+  color: #9fa4a9;
+}
+
+/* Content-Kanan */
+.Content-Kanan {
+  background: #fcfdfd;
+}
+
+/* modal */
+#modalContent3b {
+  display: none;
+  background: red;
+  opacity: 0.1;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media Screen and (min-width: 720px) {
+  .Content-Kanan {
+    width: 18.4%;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+
+  /* kiri */
+  .Content-Kiri {
+    position: absolute;
+    float: left;
+    background: transparent;
+    overflow: auto;
+    bottom: 0;
+    top: 70px;
+    left: 7%;
+    right: 0;
+  }
+
+  .Content-Kiri .Content-Kiri-Atas .cssButton {
+    /* background: red; */
+    top: 30px;
+    left: 10%;
+    position: absolute;
+  }
+
+  /* Kiri-Bawah */
+  .Content-Kiri .Content-Kiri-Bawah {
+    width: 77%;
+  }
+
+  /*---kiri--- */
+}
+
+@media Screen and (max-width: 720px) {
+  .Content-Kanan {
+    float: left;
+    width: 93%;
+    height: 100vh;
+    margin-bottom: 500px;
+  }
+
+  .Content-Kiri {
+    margin-top: 12vh;
+  }
+  .Content-Kiri .Content-Kiri-Atas .cssButton {
+    top: 0;
+    right: 2%;
+    position: absolute;
+  }
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
