@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Sidebar from "../SidebarRight/Sidebar";
 import Content3A from "../Pages/Content3A/Content3A";
 import Content3B from "../Pages/Content3B/Content3B";
+import Home from "../Pages/Home/Home";
 
 export default class Routers extends Component {
   render() {
@@ -13,6 +14,7 @@ export default class Routers extends Component {
         <Sidebar />
         <Route exact path="/" component={Content3B} />
         <Route path="/dash" component={Content3A} />
+        <Route path="/home" component={Home} />
       </Router>
     );
   }

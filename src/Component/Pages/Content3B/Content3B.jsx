@@ -73,6 +73,12 @@ export default class Content3B extends Component {
                     <p>{inflateRaw.time}</p>
                   </div>
                 </div>
+                <div className="Kiri-Bawah-Tempat">
+                  Store Kongensgade 66,1264 Kobenhavn K, Denmark
+                </div>
+                <div className="Kiri-Bawah-Att">
+                  10 Attachment
+                </div>
               </div>
             </div>
           ))}
